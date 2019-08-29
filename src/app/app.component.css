@@ -1,4 +1,9 @@
-.navbar-estilo{
+/* .navbar-estilo{
    margin: 2em;
    padding: 1em;
+} */
+.navbar{
+   /* background: #D23099; */
+   background: #CF3C8C;
+   color: #FFFFFF;
 }

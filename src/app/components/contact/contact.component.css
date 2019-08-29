@@ -1,6 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Livvic&display=swap");
+
 .contact-text{
     text-align: center;
+    margin: 3em;
+    font-family: 'Livvic', sans-serif;
+    color: #151515;
+
+    line-height: 10em;
+
+
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;             
+
+    justify-content: center;
+    align-items: center; */
 }
-.contact-email{
+/* .contact-email{
     width: 5em;
-}
+} */

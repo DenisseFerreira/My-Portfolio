@@ -9,6 +9,7 @@ import { SkillsComponent } from './components/skills/skills.component';
 
 const routes: Routes = [
 
+  { path: "inicio", component: HomeComponent },
   { path: "", component: HomeComponent },
   { path: "sobremi", component: AboutComponent },
   { path: "contacto", component: ContactComponent },

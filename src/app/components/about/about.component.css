@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Livvic&display=swap");
+
 .profilephoto{
     width: 20em;
 }
 .text-about{
     padding: 10em;
-
+    font-family: 'Livvic', sans-serif;
 }
