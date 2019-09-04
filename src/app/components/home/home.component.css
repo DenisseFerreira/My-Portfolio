@@ -1,6 +1,11 @@
 .home-name{
+    background: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;             
 
-    background: center
+    justify-content: center;
+    align-items: center; 
 }
 
 body { 

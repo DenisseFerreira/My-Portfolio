@@ -1,17 +1,19 @@
 
 
   <div class="card-deck" data-aos="flip-up">
-    <div class="card">
-      <img src="../../../assets/img/redsocial.png" class="card-img-top" alt="...">
+    <div *ngFor= 'let item of MyProyects'   class="card">
+     <img src="../../../assets/img/{{item.imagen}}" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Social-Network</h5>
-        <p class="card-text">Aplicacion Web de red social</p>
+        <h5 class="card-title">{{item.title}}</h5>
+        <p class="card-text">{{item.description}}</p>
       </div>
       <div class="card-footer">
-        <small class="text-muted">Desarrollado con javascript</small>
+        <small class="text-muted">Desarrolado con: {{item.technology}}</small>
       </div>
     </div>
-    <div class="card">
+
+
+    <!-- <div class="card">
       <img src="../../../assets/img/md-links.png" class="card-img-project" alt="...">
       <div class="card-body">
         <h5 class="card-title">denisse-md-links</h5>
@@ -20,8 +22,8 @@
       <div class="card-footer">
         <small class="text-muted">Libreria en NPM</small>
       </div>
-    </div>
-    <div class="card">
+    </div> -->
+    <!-- <div class="card">
       <img src="../../../assets/img/burger.png" class="card-img-top" alt="..." >
       <div class="card-body">
         <h5 class="card-title">Burger Queen </h5>
@@ -30,5 +32,5 @@
       <div class="card-footer">
         <small class="text-muted">Desarrollado con Angular</small>
       </div>
-    </div>
+    </div> -->
   </div>

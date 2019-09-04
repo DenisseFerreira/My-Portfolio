@@ -5,8 +5,8 @@
 .navbar{
    /* background: #D23099; */
    background: #CF3C8C;
-   color: #FFFFFF;
 }
-.nav-item{
+
+.navbar-light .navbar-nav .nav-link{
    color: #FFFFFF;
 }
