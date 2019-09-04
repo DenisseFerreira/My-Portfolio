@@ -1,41 +1,28 @@
 <!-- <picture class="col s12 m12 l4" class="skills-img " data-aos="flip-left"
 data-aos-easing="ease-out-cubic"
 data-aos-duration="2000"  > -->
-<div >
+
+<!-- <div >
 <div class="clearfix visible sm-block" class="skills-img">
  <article>
         <i class="fab fa-angular"></i>
 
         <h1>En construccion</h1>
-    <!-- <img class="img" data-aos="zoom-in" src="../../../assets/img/icons8-angularjs-100.png" id="profilephoto" alt="Fotografía de perfil" />
-    <img class="img" data-aos="zoom-in" src="../../../assets/img/icons8-js-100.png" id="profilephoto" alt="Fotografía de perfil" />
-    <img class="img" data-aos="zoom-in" src="../../../assets/img/icons8-js-150.png" id="profilephoto" alt="Fotografía de perfil" />
 
-     -->
-
-
-    <!-- 
-
-    <img class="img" data-aos="zoom-in" src="../../../assets/img/bootstrap.png" id="profilephoto" alt="Fotografía de perfil" />
-
-
-    <img class="img" data-aos="zoom-in" src="../../../assets/img/css.png" id="profilephoto" alt="Fotografía de perfil" />
- 
-
-    <img class="img" data-aos="zoom-in" src="../../../assets/img/firebase.png" id="profilephoto" alt="Fotografía de perfil" />
-</article>
-<article>
-    <img class="img" data-aos="zoom-in" src="../../../assets/img/git.png" id="profilephoto" alt="Fotografía de perfil" />
-
-
-    <img class="img" data-aos="zoom-in" src="../../../assets/img/github.png" id="profilephoto" alt="Fotografía de perfil" />
-
-
-    <img class="img" data-aos="zoom-in" src="../../../assets/img/js.png" id="profilephoto" alt="Fotografía de perfil" />
-
-    <img class="img" data-aos="zoom-in" src="../../../assets/img/node.png" id="profilephoto" alt="Fotografía de perfil" /> -->
 </article>
 
 </div>  
-</div>
+</div> -->
+
 <!-- </picture> -->
+
+<div class="container row">
+<div *ngFor= 'let item of Myskills' class="card col-md-3">
+  <div class="card-img-top">    <img src="../../../assets/img/icon/{{item.url}}"  alt="..."> </div>
+
+    <div class="card-body">
+      <p class="card-title">{{item.title}}</p>
+      <p class="card-text">{{item.description}}</p>
+    </div>
+  </div>
+</div>

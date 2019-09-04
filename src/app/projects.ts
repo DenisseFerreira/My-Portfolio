@@ -6,7 +6,9 @@ export class Projects {
     public description : string;
     public imagen : string;
     public technology : string;
-
+    public demo : string;
+    public codigo : string;
+    
     constructor() { }
   
     }

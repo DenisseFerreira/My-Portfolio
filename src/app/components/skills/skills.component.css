@@ -7,3 +7,16 @@
     width: 10em;
     display: inline-block;
 } */
+
+.card{
+    margin: 3%;
+    width: 50%;
+    text-align: center;
+}
+/* .card-img-top{
+   
+    width: 15%;
+    margin: 6em;
+    text-align: center;
+
+} */

@@ -9,23 +9,26 @@ export const ProjectsJson: Projects[] = [
     title : 'Ketrawe',
     description :'Red social enfocada en los usuarios amantes de las plantas',
     imagen :'redsocial.png',
-    technology : 'Javascript, Flexbox y Firebase'
-
+    technology : 'Javascript, Flexbox y Firebase',
+    demo : 'https://luisaromero.github.io/SCL009-Social-Network',
+    codigo : 'https://github.com/DenisseFerreira/SCL009-Social-Network'
 },
 {
     id : 2,
-    title : 'Ketrawe2',
-    description :'Red social enfocada en los usuarios amantes de las plantas',
+    title : 'denisse-md-links',
+    description :'Libreria para archivos markdown',
     imagen :'md-links.png',
-    technology : 'Javascript, Flexbox y Firebase'
-
+    technology : 'Libreria en NPM, Node.js',
+    demo : 'https://www.npmjs.com/settings/denisse_ferreira/packages',
+    codigo : 'https://github.com/DenisseFerreira/SCL009-md-links',
 },
 {
     id : 3,
-    title : 'Ketrawe3',
-    description :'Red social enfocada en los usuarios amantes de las plantas',
-    imagen :'redsocial.png',
-    technology : 'Javascript, Flexbox y Firebase'
-
+    title : 'Burger Queen',
+    description :'Aplicacion para cadena de restorant',
+    imagen :'burger.png',
+    technology : 'Desarrollado con Angular y Bootstrap',
+    demo : 'https://github.com/DenisseFerreira/SCL009-Burger-Queen',
+    codigo : 'https://github.com/DenisseFerreira/SCL009-Burger-Queen',
 }
 ]
