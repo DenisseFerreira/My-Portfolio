@@ -16,13 +16,18 @@ data-aos-duration="2000"  > -->
 
 <!-- </picture> -->
 
-<div class="container row">
-<div *ngFor= 'let item of Myskills' class="card col-md-3">
+<div class="container">
+  <div class="row">
+  <h4 class="title col-md-4">HABILIDADES</h4>
+</div>
+<div class="row">
+<div *ngFor= 'let item of Myskills' class="card col-md-2">
   <div class="card-img-top">    <img src="../../../assets/img/icon/{{item.url}}"  alt="..."> </div>
 
     <div class="card-body">
       <p class="card-title">{{item.title}}</p>
-      <p class="card-text">{{item.description}}</p>
+      <!-- <p class="card-text">{{item.description}}</p> -->
     </div>
+  </div>
   </div>
 </div>

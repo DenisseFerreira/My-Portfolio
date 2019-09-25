@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Livvic&display=swap");
+
+
 /* .skills-img{
     width: 5em;
     display: inline-block;
@@ -12,6 +15,15 @@
     margin: 3%;
     width: 50%;
     text-align: center;
+    font-family: 'Livvic', sans-serif;
+    color: #151515;
+}
+
+.title{
+    margin: 3%;
+    float: left;
+    font-family: 'Livvic', sans-serif;
+    color: #423b3b;
 }
 /* .card-img-top{
    
